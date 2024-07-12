@@ -9,22 +9,15 @@ export const App = () => {
   return (
     <BrowserRouter>
       <header>
-        <Link to="/">
+        <Link to="/tp">
           <img src={logo} alt="Copa América 2024" className="logo-copa" />
           {/* <h1 className="title">Copa América 2024</h1> */}
         </Link>
       </header>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/match/:matchId" element={<MatchDetails />} />
+        <Route path="/tp" element={<LandingPage />} />
+        <Route path="/tp/match/:matchId" element={<MatchDetails />} />
       </Routes>
     </BrowserRouter>
   );
 };
-
-/*
-<Routes>
-    <Route path="/" element={<LandingPage />} />
-    <Route path="/pelicula/:peliculaId" element={<DetallePelicula />} />
-  </Routes>
-  */

@@ -26,7 +26,7 @@ export const Match = ( {match} ) => {
         <div className="date">
             {format(new Date(date), "EEEE dd 'de' MMMM", { locale: es })}
         </div>
-        <Link to={`/match/${id}`}>
+        <Link to={`/tp/match/${id}`}>
             <div className="match">
                 <div className="home">
                     <img src={home_logo} alt={home_name} className="logo" />

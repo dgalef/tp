@@ -75,7 +75,7 @@ export const MatchDetails = () => {
 
 
             </div>
-            <Link to="/"><button>Volver</button></Link>
+            <Link to="/tp"><button>Volver</button></Link>
         </>
     )
 }
